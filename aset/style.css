@@ -1,0 +1,476 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* mobile screen */
+@media screen and (max-width: 320px) {
+    .brand h1{
+        padding-bottom:100px ;
+    }
+    .navigasi{
+        font-size: 20px;
+    }
+    .navbar2 ul li a{
+        font-size: 50rem
+        
+    }
+    
+    .page1 .images img{
+        margin-left: 18rem;
+    }
+    .judul h2{
+        position: absolute;
+        margin-top: 20rem;
+        right: -10rem;
+        font-size: 80px;
+    }
+    
+    .desc1 p{
+        font-size: 50px;
+        margin-top: 30rem;
+        margin-left: -27rem;
+        
+    }
+    
+    .desc2 p{
+        margin-left: -32rem;
+        font-size: 45px;
+    }
+    .buttonj {
+        position: relative;
+        top: 4rem;
+        width: 40%; 
+    }
+    .buttonj p{
+        padding: 5px;
+        font-size: 20px;
+    }
+    .mainc{
+        width: 70rem;
+    }
+    .washing p{
+        color: white;
+        min-width: 350px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .drying p{
+        color: white;
+        min-width: 400px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .iron p{
+        color: white;
+        min-width: 500px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    aside .hr-bio{
+        margin-left: 30rem;
+    }
+    .biodata .poto{
+        position: relative;
+        margin-top: -7rem;
+    }
+    .isi h5{
+        font-size: 30px;
+    }
+    footer{
+        font-size: 40px;
+    }
+  }
+/* mobile screen */
+
+
+/* tablet screen */
+@media screen and (max-width: 768px) {
+    .page1 .images img{
+        width: 500px;
+        height: 500px;
+    }
+    .judul h2{
+        margin-left: 45rem;
+    }
+
+    .desc1 p{
+        margin-right: -45rem;
+        left: 70rem
+    }
+    
+    .desc2 p{
+        position: absolute;
+        padding-top: 1rem;
+        left: 33rem;
+        width: 400px;
+       
+    }
+    .buttonj{
+        position: absolute;
+        left: 7rem;
+        top: 4rem;
+    }
+    .washing p{
+        color: white;
+    }
+    .iron p{
+        color: white;
+    }
+    .drying p {
+        color: white;
+    }
+    .mainc{
+        width: 69.9rem;
+    }
+    .hr-wash{
+        min-width: 15%;
+    }
+    .hr-dry, .hr-iron{
+        min-width: 13%;
+    }
+    aside .hr-bio{
+        margin-left: 30rem;
+    }
+    .biodata{
+        position: absolute;
+        margin-left: -8rem;
+        margin-bottom: 10rem;
+    }
+    .poto img{
+        min-height: 380px;
+        min-width: 300px;
+    }
+    .isi{
+        min-width: 500px;
+        margin-left: -5.9rem;
+        min-height: 150px;
+    }
+}
+
+/* tablet screen */
+
+
+/* home */
+.header{
+    font-size: 15px;
+    color: white;
+    background-color: #2d3436;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+}
+.brand :hover{
+    color:#2ecc71;
+    cursor: pointer;
+}
+.brand h1{
+    margin-left: 5rem;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+}
+
+nav li a{
+    text-decoration: none;
+    color: grey;
+    width: 30%;
+    padding: 0 40px;
+    
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+    position: relative;
+    margin-left: 20rem;
+    top: 5px;
+
+}
+.navbar2 :hover{
+    color: darkgrey;
+}
+
+
+
+
+.page1{
+    background-color: white;
+}
+.page1 img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-top: 8rem;
+    margin-left: 7rem;
+}
+.text{
+    margin-left: 5rem;
+    cursor: pointer;
+}
+.judul{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: -22rem;
+}
+.judul span :hover{
+    transition: 0.3s ease-in-out;
+}
+.desc1{
+    position: relative;
+    display: flex;
+    margin-left: 9.5rem;
+    justify-content: center;
+    font-size: 30px;
+}
+.desc1 span{
+    color: red;
+    font-weight: bold;
+}
+
+.desc2{
+    position: relative;
+    display: flex;
+    margin-left: 10%;
+    justify-content: center;
+    font-size: 30px;
+}
+.desc2 span{
+    color: red;
+    font-weight: bold;
+}
+.buttonj{
+    position: relative;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    background-color:#636e72;
+    font-weight: bolder;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 35rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: white;
+}
+/* home */
+
+
+
+.header-serv h1{
+    position: relative;
+    top: 6rem;
+    margin-left: 50rem;
+    font-size: 50px;
+
+}
+/* article washing */
+main{
+    margin-top: 13.5rem;
+    height: 600px;
+    background-color:#636e72 ;
+    
+}
+.washing{
+    background-color: #2d3436;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    width: 52%;
+}
+
+.washing img{
+    margin-top: 5rem;
+    height: 100px;
+    margin-left: 1rem;
+    position: relative;
+    margin-top: 1rem;
+}
+.washing p{
+    width: 50%;
+    position: absolute;
+    margin-left: 4rem;
+    font-weight: bold;
+    margin-left: 9rem;
+    margin-top: -4rem;
+    color: white;
+}
+.washing h1{
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: -7rem;
+}
+.hr-wash{
+    background-color: black;
+    padding: 1.5px;
+    border: 15px;
+    width: 8%;
+    margin-left: 9rem;
+    margin-top: -5rem;
+    position: absolute;
+}
+
+/* article washing */
+
+/* article jemur*/
+.drying{
+    margin-top: 3rem;
+    margin-left: 17rem;
+    background-color: #2d3436;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+}
+.drying img{
+
+    margin-top: 5rem;
+    height: 100px;
+    margin-left: 1rem;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.drying h1{
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: -7rem;
+}
+.drying p{
+    width: 50%;
+    position: absolute;
+    margin-left: 4rem;
+    font-weight: bold;
+    margin-left: 9rem;
+    margin-top: -4rem;
+    color: white;
+}
+.hr-dry{
+    background-color: black;
+    padding: 1.5px;
+    border: 15px;
+    width: 6%;
+    margin-left: 9rem;
+    margin-top: -5rem;
+    position: absolute;
+}
+/* article jemur*/
+
+/* article iron*/
+.iron{
+    margin-top: 3rem;
+    margin-left: 28rem;
+    bottom: 1rem;
+    background-color: #2d3436;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    width: 60%;
+}
+.iron img{
+    margin-top: 5rem;
+    height: 100px;
+    margin-left: 1rem;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.iron h1{
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: -7rem;
+}
+.iron p{
+    width: 50%;
+    position: absolute;
+    margin-left: 4rem;
+    font-weight: bold;
+    margin-left: 9rem;
+    margin-top: -4rem;
+    color: white;
+}
+.hr-iron{
+    background-color: black;
+    padding: 1.5px;
+    border: 15px;
+    width: 7%;
+    margin-left: 9rem;
+    margin-top: -5rem;
+    position: absolute;
+}
+
+/* article iron*/
+
+/* aside*/
+aside{
+    background-color: #95a5a6;
+    height: 800px;
+    margin-top: 4rem;
+}
+.biodata{
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+    min-height: 370px;
+    border-radius: 1rem;
+    position: absolute;
+    left: 33.5rem;
+    margin-top: 11rem;
+}
+.biodata:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.head-bio{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.hr-bio{
+    padding: 1.5px;
+    background-color: black;
+    width: 15%;
+    display: flex;
+    margin-left: 33.5rem;
+}
+
+.poto img{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.isi h5{
+   padding-top: 1rem;
+   letter-spacing: 0.5px;
+
+}
+
+footer{
+    position: relative;
+    top: 46.5rem;
+    background-color: #2d3436;
+    color: white;
+    font-style: inherit;
+    padding: 10px;
+}
